@@ -87,9 +87,12 @@ label {
   background: #273259;
   text-align: center;
     min-height: 300px;
+  padding-top: 3em;
+  padding-bottom: 3em;
+
 }
 .header-section img {
-  margin-top: 3em;
+#  margin-top: 3em;
 }
 .header-section h1 {
   font-family: 'Nunito-Bold';
