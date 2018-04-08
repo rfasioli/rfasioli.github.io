@@ -80,15 +80,12 @@ label {
 }  
 
 .header-section {
-  /*background: #273259;*/
   background-image: url(../images/background.png);
-  /*background: url(../images/background.png) no-repeat 0px 0px;*/
   background-size: cover;
   text-align: center;
   min-height: 300px;
   padding-top: 7em;
   padding-bottom: 7em;
-
 }
 .header-section img {
   margin-top: 3em;
