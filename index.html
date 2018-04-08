@@ -11,6 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <title>Meu perfil profissional | Home </title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Página pessoal, Analista Desenvolvedor, Desenvolvedor Java, Líder, C++, Linux, Spring boot, spring, angular" />
@@ -32,17 +33,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  
 </head>
 <body>
+	<!-- Preloader -->
+	<div id="tt-preloader">
+		<div id="pre-status">
+			<div class="preload-placeholder"></div>
+		</div>
+	</div>
+
 		<!--start-header-section-->
 		<section id="home">
 			<div class="header-section">
 				<div class="container">
-					<img class="img-circle img-thumbnail" src="images/p0.png">
-					<h1>Rodrigo <span>Fasioli</span></h1>
-					<p>Analista / Desenvolvedor Sênior</p>
+					<h5>RODRIGO FASIOLI</h5>
+					<h1>Analista <span>Desenvolvedor</span></h1>
+					<br>
+					<p>Analista de sistemas e desenvolvedor full-stack.</p>
+					<p>Possuo grande experiencia na integração entre as plataformas<br> de novos sistemas com legados.</p>
+					<div class="social-icons">
+						<ul class="list-inline">
+							<li><a href="https://www.facebook.com/profile.php?id=100007638886160"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/RFasioli"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/rodrigo-fasioli-16b21125"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://www.github.com/rfasioli"><i class="fa fa-github"></i></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</section>
 		<!--end header-section-->
+		<section id="about">
+			<div class="container">
+				<h3 class="title" >Quem sou eu</h3>
+				<img class="img-circle" src="images/p0.png">
+			</div>
+		</section>
 		<section id="skill">
 			<!--start-study-section-->
 			<div class="study-section">
@@ -364,6 +388,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script>
 		$(document).ready(function(){
 			$('[data-toggle="tooltip"]').tooltip();   
+		});
+		/* ---------------------------------------------- /*
+		 * Preloader
+		/* ---------------------------------------------- */
+
+		$(window).ready(function() {
+			$('#pre-status').fadeOut();
+			$('#tt-preloader').delay(350).fadeOut('slow');
 		});
 	</script>
 </body>
