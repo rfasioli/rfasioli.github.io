@@ -276,6 +276,55 @@ font-size: 2em;
     border: 1px solid transparent;
     z-index: 0;
 }
+
+.biography{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border:1px solid #EEEEEE;
+    position: relative;
+}
+
+.biography::after{
+    content: "";
+    border-bottom: 1px solid #EEEEEE;
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.myphoto img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.biography ul{
+    padding:25px 20px 30px;
+}
+
+.biography ul li{
+    padding:5px 0;
+    font-size: 16px;
+    border-bottom:1px solid #EEEEEE;
+    list-style: none;
+}
+
+.biography ul li:last-child{
+    border-bottom:0;
+}
+
+#about .short-info{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#about h5 {
+  padding-top: 30px;
+}
+
+
 .face p {
   font-size: 3em;
   color: #B4BEB9;
