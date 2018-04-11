@@ -13,8 +13,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
 }
 body a{
-    transition:0.5s all;
-	-webkit-transition:0.5s all;
+    transition:top 0.5s;
+	-webkit-transition:top 0.5s;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
@@ -25,6 +25,9 @@ input[type="button"]{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
+}
+.navbar {
+  margin-bottom: 0 !important;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -69,6 +72,10 @@ label {
   font-size: 0.8em;
   color: #9CA69D;
   margin: 0 0 0 7px;
+}
+.labels p {
+  font-size: 0.9em;
+  line-height: 1.05em;
 }
 
 .viewMore[aria-expanded="false"]:before{
@@ -555,7 +562,7 @@ i.beh {
             position: absolute;
             top: 27px;
             left: 50%;
-            margin-left: -16px;
+            margin-left: -15px;
             background-color: #999999;
             z-index: 100;
             border-top-right-radius: 50%;
@@ -628,7 +635,7 @@ i.beh {
     }
 
     ul.timeline > li > .timeline-badge {
-        left: 15px;
+        left: 25px;
         margin-left: 0;
         top: 16px;
     }
@@ -1047,41 +1054,6 @@ span.glyphicon.glyphicon-triangle-bottom {
   font-size: 0.8em;
 }
 
-/* ---------------------------------------------- /*
- * Preloader
-/* ---------------------------------------------- */
-
-#tt-preloader {
-	background: #FFF;
-	bottom: 0;
-	left: 0;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 9999;
-}
-
-#pre-status,
-.preload-placeholder {
-	background-image: url(../images/preloader.gif);
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 200px;
-	left: 50%;
-	margin: -100px 0 0 -100px;
-	position: absolute;
-	top: 50%;
-	width: 200px;
-}
-
-.preload-placeholder {
-	background: none;
-	left: 0;
-	margin: 0;
-	text-align: center;
-	top: 65%;
-}
-}
 
 #about .container {
   padding-top: 30px;

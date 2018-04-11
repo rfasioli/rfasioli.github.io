@@ -9,8 +9,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>Meu perfil profissional | Home </title>
-<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
 <link href="assets/css/animate.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,13 +34,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  
 </head>
 <body>
-	<!-- Preloader -->
-	<div id="tt-preloader">
-		<div id="pre-status">
-			<div class="preload-placeholder"></div>
-		</div>
-	</div>
-		<div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height: 62px;">
+		<div id="undefined-sticky-wrapper" class="sticky-wrapper">
 			<header class="header" style="">
 				<nav class="navbar navbar-custom" role="navigation">
 					<div class="container">
@@ -182,7 +176,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<span class="sr-only">97% Complete</span>
 							  </div>
 							</div>
-							<br>
+							<p class="labels">
 							<span class="label label-default">C#</span>
 							<span class="label label-default">Asp.Net</span>
 							<span class="label label-success">NodeJS</span>
@@ -251,7 +245,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<span class="label label-default">MS Project</span>
 								<span class="label label-default">Erwin</span>
 							</div>
-							<br>
+							</p>
 							<a href="#skills" class="viewMore" data-toggle="collapse" 
 							 aria-expanded="false" aria-controls="skills"></a>
 						</div>
@@ -447,14 +441,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		$(document).ready(function(){
 			$('[data-toggle="tooltip"]').tooltip();   
 		});
-		/* ---------------------------------------------- /*
-		 * Preloader
-		/* ---------------------------------------------- */
-
-		$(window).ready(function() {
-			$('#pre-status').fadeOut();
-			$('#tt-preloader').delay(350).fadeOut('slow');
-		});
+		
 	</script>
 </body>
 </html> 
