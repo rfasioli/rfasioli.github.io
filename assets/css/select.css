@@ -1,0 +1,12 @@
+.select ul { 
+  height: 30px;
+  width: 150px;
+  margin-top: 10px;
+  position: absolute;
+  color:#5a7ca8;
+  
+}
+.select ul li { padding: 5px 10px; z-index: 2; }
+.select ul li:not(.init) { float: left; width: 130px;color: #5a7ca8;  display: none; background: #fff; }
+.select ul li:not(.init):hover, ul li.selected:not(.init) { background: #ddd;}
+li.init { cursor: pointer; }
