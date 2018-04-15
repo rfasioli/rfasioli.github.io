@@ -189,12 +189,6 @@ span.glyphicon.glyphicon-triangle-bottom {
   background-color: #e99a96;
   box-shadow: none;
 }
-.progress .progress-bar.six-sec-ease-in-out {
-  -webkit-transition: width 2s ease-in-out;
-  -moz-transition: width 2s ease-in-out;
-  -o-transition: width 2s ease-in-out;
-  transition:  width 2s ease-in-out;
-}
 .study-grid h4 {
   font-size: 1.3em;
   text-transform: capitalize;

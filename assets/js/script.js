@@ -2,7 +2,6 @@
 $(document).ready(function ($) {
     var dicionario = Dicionario;
     $('.skill-progress').bind('inview', function (event, visible, visiblePartX, visiblePartY) {
-        console.log("chamou")
         if (visible) {
             $.each($('div.progress-bar'), function () {
                 $(this).css('width', $(this).attr('aria-valuenow') + '%');
