@@ -200,11 +200,15 @@ span.glyphicon.glyphicon-triangle-bottom {
   text-transform: capitalize;
   color: rgb(29, 26, 26);
   }
-.study1 {
+.study1 .study2 {
   padding: 1em 0 0;
 }
-.study2 {
-  padding: 2em 0 0;
+.study3 {
+  padding: 2em;
+  border-radius: 10px;
+  border: 1px solid #AAA;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 .service-section {
   text-align: center;
@@ -324,6 +328,11 @@ font-size: 2em;
 
 .biography ul li:last-child{
     border-bottom:0;
+}
+
+#about {
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 #about .short-info{
@@ -855,11 +864,15 @@ i.beh {
   width: 100%;
   margin-top: 2em;
 }
-.study1 {
+.study1 .study2 {
   padding: 0em 0 0;
 }
-.study2 {
-  padding: 1em 0 0;
+.study3 {
+  padding: 2em;
+  border-radius: 10px;
+  border: 1px solid #AAA;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 .study-grid p {
   font-size: 0.965em;
