@@ -78,6 +78,13 @@ label {
   line-height: 1.05em;
 }
 
+.card {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background-color: rgba(255,255,255,0.75);
+}
+
 .viewMore[aria-expanded="false"]:before{
   content:"[ Expandir ]";
 }
@@ -737,10 +744,10 @@ span.glyphicon.glyphicon-triangle-bottom {
 .study-section {
   padding: 3em 0;
 }
-.study-grid {
+/* .study-grid {
   float: left;
   width: 50%;
-}
+} */
 .study-grid h3 {
   font-size: 1.6em;
 }
