@@ -12,6 +12,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     font-family: 'OpenSans-Regular';
     src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
 }
+
+#home {
+  height: 100vh;
+}
+section {
+  min-height: 100vh;
+}
+
 body a{
     transition:top 0.5s;
 	-webkit-transition:top 0.5s;
@@ -19,6 +27,7 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+
 input[type="button"]{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -94,32 +103,22 @@ label {
 }  
 
 .header-section {
-  background-image: url(../images/background.png);
-  background-size: cover;
   text-align: center;
-  min-height: 300px;
-  padding-top: 7em;
-  padding-bottom: 7em;
-}
-.header-section img {
-  margin-top: 3em;
+  padding-top: 5em;
 }
 .header-section h1 {
   font-family: 'Nunito-Bold';
-  font-size: 3em;
   text-transform: capitalize;
   color: #8af;
   padding: 0.5em 0 0 0;
 }
-.header-section h5 {
+.header-section h3 {
   font-family: 'Nunito-Bold';
   text-transform: capitalize;
-  font-size: 1.6em;
   color: #fff;
 }
 .header-section span {
   color: #9d9;
-  font-size: 1em;
 }
 .header-section p {
   font-family: 'Nunito-Bold';
@@ -489,7 +488,7 @@ i.beh {
 	height: 48px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/to-top2.png") no-repeat 0px 0px;
+  background: url("../images/to-top2.png") no-repeat 0px 0px;
 }
 /* timeline */
 .timeline {
@@ -675,11 +674,6 @@ i.beh {
             right: auto;
         }
 }
-
-
-
-
-
 /*-- responsive-design --*/
 @media only screen and (max-width:1024px) {
 .header-section h1 {

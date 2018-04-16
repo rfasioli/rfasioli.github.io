@@ -1,5 +1,11 @@
+new WOW().init();
 
 $(document).ready(function ($) {
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+        setTimeout(function(){ $(".loader-container").fadeOut(600); }, 1000);
+    });			
+
     var dicionario = Dicionario;
     $('.skill-progress').bind('inview', function (event, visible, visiblePartX, visiblePartY) {
         if (visible) {
@@ -8,11 +14,6 @@ $(document).ready(function ($) {
             });
             $(this).unbind('inview');
         }
-    });
-
-    $(".scroll").click(function (event) {
-        event.preventDefault();
-        $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
     });
 
     $(".select ul").on("click", ".init", function() {
@@ -36,4 +37,13 @@ $(document).ready(function ($) {
       _t.lang(lang);
       ev.preventDefault();
     });
+
+    $('a[href*=#]').bind("click", function(e){
+        var anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $(anchor.attr('href')).offset().top
+        }, 1500);
+        e.preventDefault();
+    });
+    
 });

@@ -1,97 +1,122 @@
-#sticker *{
-    margin:0;
-    padding:0;
+@media only screen and (min-width:1000px) {
+    #sticker *{
+        margin:0;
+        padding:0;
+    }
+    #sticker body{
+        font-family:arial,sans-serif;
+        font-size:100%;
+        margin:1em;
+        background:#666;
+        color:#fff;
+    }
+    #sticker h2, #sticker p{
+        font-size:100%;
+        font-weight:normal;
+    }
+    #sticker ul, #sticker li{
+        list-style:none;
+    }
+    #sticker ul{
+        overflow:hidden;
+        padding:1em;
+    }
+    #sticker ul li a{
+        text-decoration:none;
+        color:#000;
+        background:#ffc;
+        display:block;
+        height:15em;
+        width:17em;
+        padding:1em;
+        -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+        -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        -moz-transition:-moz-transform .15s linear;
+        -o-transition:-o-transform .15s linear;
+        -webkit-transition:-webkit-transform .15s linear;
+    }
+    #sticker ul li{
+        margin:1em;
+        float:left;
+    }
+    #sticker ul li h2{
+        font-size:120%;
+        font-weight:bold;
+        padding-bottom:10px;
+    }
+    #sticker ul li p{
+        font-family:"Reenie Beanie",arial,sans-serif;
+        font-size:150%;
+    }
+    #sticker ul li a{
+        -webkit-transform: rotate(-6deg);
+        -o-transform: rotate(-6deg);
+        -moz-transform:rotate(-6deg);
+    }
+    #sticker ul li:nth-child(even) a{
+        -o-transform:rotate(4deg);
+        -webkit-transform:rotate(4deg);
+        -moz-transform:rotate(4deg);
+        position:relative;
+        top:5px;
+        background:#cfc;
+    }
+    #sticker ul li:nth-child(3n) a{
+        -o-transform:rotate(-3deg);
+        -webkit-transform:rotate(-3deg);
+        -moz-transform:rotate(-3deg);
+        position:relative;
+        top:-5px;
+        background:#ccf;
+    }
+    #sticker ul li:nth-child(5n) a{
+        -o-transform:rotate(5deg);
+        -webkit-transform:rotate(5deg);
+        -moz-transform:rotate(5deg);
+        position:relative;
+        top:-10px;
+    }
+    #sticker ul li a:hover, #sticker ul li a:focus{
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:5;
+    }
+    #sticker ol {
+        text-align:center;
+    }
+    #sticker ol li {
+        display:inline;padding-right:1em;
+    }
+    #sticker ol li a {
+        color:#fff;
+    }
 }
-#sticker body{
-    font-family:arial,sans-serif;
-    font-size:100%;
-    margin:1em;
-    background:#666;
-    color:#fff;
-}
-#sticker h2, #sticker p{
-    font-size:100%;
-    font-weight:normal;
-}
-#sticker ul, #sticker li{
-    list-style:none;
-}
-#sticker ul{
-    overflow:hidden;
-    padding:1em;
-}
-#sticker ul li a{
-    text-decoration:none;
-    color:#000;
-    background:#ffc;
-    display:block;
-    height:15em;
-    width:17em;
-    padding:1em;
-    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
-    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-    -moz-transition:-moz-transform .15s linear;
-    -o-transition:-o-transform .15s linear;
-    -webkit-transition:-webkit-transform .15s linear;
-}
-#sticker ul li{
-    margin:1em;
-    float:left;
-}
-#sticker ul li h2{
-    font-size:120%;
-    font-weight:bold;
-    padding-bottom:10px;
-}
-#sticker ul li p{
-    font-family:"Reenie Beanie",arial,sans-serif;
-    font-size:150%;
-}
-#sticker ul li a{
-    -webkit-transform: rotate(-6deg);
-    -o-transform: rotate(-6deg);
-    -moz-transform:rotate(-6deg);
-}
-#sticker ul li:nth-child(even) a{
-    -o-transform:rotate(4deg);
-    -webkit-transform:rotate(4deg);
-    -moz-transform:rotate(4deg);
-    position:relative;
-    top:5px;
-    background:#cfc;
-}
-#sticker ul li:nth-child(3n) a{
-    -o-transform:rotate(-3deg);
-    -webkit-transform:rotate(-3deg);
-    -moz-transform:rotate(-3deg);
-    position:relative;
-    top:-5px;
-    background:#ccf;
-}
-#sticker ul li:nth-child(5n) a{
-    -o-transform:rotate(5deg);
-    -webkit-transform:rotate(5deg);
-    -moz-transform:rotate(5deg);
-    position:relative;
-    top:-10px;
-}
-#sticker ul li a:hover, #sticker ul li a:focus{
-    box-shadow:10px 10px 7px rgba(0,0,0,.7);
-    -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
-    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
-    -webkit-transform: scale(1.25);
-    -moz-transform: scale(1.25);
-    -o-transform: scale(1.25);
-    position:relative;
-    z-index:5;
-}
-#sticker ol {
-    text-align:center;
-}
-#sticker ol li {
-    display:inline;padding-right:1em;
-}
-#sticker ol li a {
-    color:#fff;
+@media only screen and (max-width:999px) {
+    #sticker ul{
+        padding: 2em;
+        border-radius: 10px;
+        border: 1px solid #AAA;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.75);        
+    }
+    #sticker li a h2 {
+        display: none;
+    } 
+    #sticker li a p {
+        font-size: 1em;
+        padding: 0px;
+        display: inline;
+    }
+        /* <li>
+    <a>
+        <h2>Data Analisys</h2>
+        <p>Stanford University <span class="highlight">Coursera</span></p>
+    </a> */
+
 }
