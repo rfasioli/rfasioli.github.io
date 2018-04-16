@@ -9,11 +9,11 @@
     background:#666;
     color:#fff;
 }
-#sticker h2,p{
+#sticker h2, #sticker p{
     font-size:100%;
     font-weight:normal;
 }
-#sticker ul,li{
+#sticker ul, #sticker li{
     list-style:none;
 }
 #sticker ul{
@@ -76,7 +76,7 @@
     position:relative;
     top:-10px;
 }
-#sticker ul li a:hover,ul li a:focus{
+#sticker ul li a:hover, #sticker ul li a:focus{
     box-shadow:10px 10px 7px rgba(0,0,0,.7);
     -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
     -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
