@@ -10,8 +10,8 @@ class Dicionario {
         en: "English"
       },
       "text_job":{
-        pt :"Analista <span>Desenvolvedor</span>",
-        en :"Analyst <span>developer</span>"
+        pt :"<span>Especialista</span> de Software",
+        en :"Software <span>Specialist</span>"
       }
     }
   }
